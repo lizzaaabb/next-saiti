@@ -46,6 +46,7 @@ html {
   margin: 0;
   line-height: 1.1;
   letter-spacing: -0.02em;
+  padding-bottom: 10px;
 }
 
 /* changed from h1 to p in JSX — styles identical */
