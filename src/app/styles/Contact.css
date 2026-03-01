@@ -53,7 +53,7 @@
 }
 
 .cnt-eyebrow {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.68rem;
   font-weight: 400;
   letter-spacing: 0.28em;
@@ -63,7 +63,7 @@
 }
 
 .cnt-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 3.4rem;
   font-weight: 700;
   color: #ffffff;
@@ -80,7 +80,7 @@
 }
 
 .cnt-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
@@ -92,7 +92,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.78rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
@@ -127,7 +127,7 @@
 }
 
 .cnt-group-label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.62rem;
   font-weight: 400;
   letter-spacing: 0.2em;
@@ -249,7 +249,7 @@
 }
 
 .cnt-card-label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.6rem;
   font-weight: 400;
   letter-spacing: 0.16em;
@@ -273,7 +273,7 @@
 }
 
 .cnt-card-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.65rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.4);

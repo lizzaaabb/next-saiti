@@ -32,7 +32,7 @@ body{
   z-index: 1000;
   background: var(--hdr-bg);
   border-bottom: 1px solid rgba(255, 255, 255, 0.167);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
 }
 
 /* ── Inner navbar row ── */
@@ -118,7 +118,7 @@ body{
   display: inline-block;
   padding: 8px 26px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.72rem;
   font-weight: 300;
   letter-spacing: 0.08em;

@@ -32,7 +32,7 @@
 }
 
 .faq-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
@@ -109,7 +109,7 @@
 }
 
 .faq-num {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.58rem;
   font-weight: 400;
   letter-spacing: 0.22em;
@@ -118,7 +118,7 @@
 }
 
 .faq-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1.07rem;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -201,7 +201,7 @@
 }
 
 .faq-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: #ffffff;

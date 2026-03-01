@@ -13,7 +13,7 @@
 }
 
 .pricing-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
@@ -99,7 +99,7 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.58rem;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -120,7 +120,7 @@
 }
 
 .pricing-index {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.58rem;
   font-weight: 300;
   letter-spacing: 0.2em;
@@ -144,7 +144,7 @@
 }
 
 .pricing-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.72rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.45);
@@ -167,7 +167,7 @@
 }
 
 .pricing-from {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.65rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.4);
@@ -176,7 +176,7 @@
 }
 
 .pricing-amount {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
@@ -184,14 +184,14 @@
 }
 
 .pricing-currency {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .pricing-custom {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
   color: #ffffff;
@@ -202,7 +202,7 @@
   display: inline-block;
   padding: 10px 26px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.72rem;
   font-weight: 300;
   letter-spacing: 0.08em;

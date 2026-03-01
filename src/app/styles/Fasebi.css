@@ -60,7 +60,7 @@
 }
 
 .fsb-eyebrow {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.68rem;
   font-weight: 400;
   letter-spacing: 0.28em;
@@ -71,7 +71,7 @@
 }
 
 .fsb-hero-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 5rem;
   font-weight: 800;
   color: #ffffff;
@@ -89,7 +89,7 @@
 }
 
 .fsb-hero-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.65);
@@ -107,7 +107,7 @@
 }
 
 .fsb-tag {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.68rem;
   font-weight: 400;
   letter-spacing: 0.06em;
@@ -141,7 +141,7 @@
 }
 
 .fsb-section-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
   color: #ffffff;
@@ -164,7 +164,7 @@
 .fsb-section-line--right { background: linear-gradient(90deg, #8C45FF, transparent); }
 
 .fsb-section-lead {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.9rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
@@ -243,7 +243,7 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.58rem;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -261,7 +261,7 @@
 .fsb-card-top { display: flex; flex-direction: column; gap: 10px; }
 
 .fsb-card-index {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.58rem;
   font-weight: 300;
   letter-spacing: 0.2em;
@@ -281,7 +281,7 @@
 }
 
 .fsb-card-desc {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.72rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.45);
@@ -294,7 +294,7 @@
 .fsb-card-price { display: flex; align-items: baseline; gap: 4px; }
 
 .fsb-card-from {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.65rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.4);
@@ -304,7 +304,7 @@
 }
 
 .fsb-card-amount {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
@@ -313,7 +313,7 @@
 }
 
 .fsb-card-currency {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
@@ -324,7 +324,7 @@
   display: inline-block;
   padding: 10px 26px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.72rem;
   font-weight: 300;
   letter-spacing: 0.08em;
@@ -378,7 +378,7 @@
 }
 
 .fsb-cta-label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.68rem;
   font-weight: 400;
   letter-spacing: 0.28em;
@@ -389,7 +389,7 @@
 }
 
 .fsb-cta-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 3rem;
   font-weight: 800;
   margin: 0 0 36px 0;
@@ -404,7 +404,7 @@
   display: inline-block;
   padding: 14px 40px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.1em;
