@@ -35,20 +35,28 @@ export default function Templates() {
   const [splitVisible, setSplitVisible] = useState(false)
 
   useEffect(() => {
-    // force repaint on back-navigation
-    document.body.style.display = 'none'
-    // eslint-disable-next-line no-unused-expressions
-    document.body.offsetHeight
-    document.body.style.display = ''
-
     window.scrollTo(0, 0)
+
+    // fix blank screen on back navigation (bfcache restore)
+    const handlePageShow = (e) => {
+      if (e.persisted) {
+        document.body.style.display = 'none'
+        void document.body.offsetHeight
+        document.body.style.display = ''
+      }
+    }
+    window.addEventListener('pageshow', handlePageShow)
 
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setSplitVisible(true) },
       { threshold: 0.1 }
     )
     if (splitRef.current) observer.observe(splitRef.current)
-    return () => observer.disconnect()
+
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('pageshow', handlePageShow)
+    }
   }, [])
 
   return (
