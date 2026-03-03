@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useRef, useState } from 'react'
 import '../styles/Templates.css'
 import TemplateHeader from './TemplateHeader'
