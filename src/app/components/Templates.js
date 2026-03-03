@@ -32,11 +32,17 @@ const templates = [
 
 export default function Templates() {
   const splitRef = useRef(null)
-  const [splitVisible, setSplitVisible] = useState(true)
-
-  useEffect(() => { window.scrollTo(0, 0) }, [])
+  const [splitVisible, setSplitVisible] = useState(false)
 
   useEffect(() => {
+    // force repaint on back-navigation
+    document.body.style.display = 'none'
+    // eslint-disable-next-line no-unused-expressions
+    document.body.offsetHeight
+    document.body.style.display = ''
+
+    window.scrollTo(0, 0)
+
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setSplitVisible(true) },
       { threshold: 0.1 }
@@ -49,7 +55,6 @@ export default function Templates() {
     <div className="templates-page">
       <TemplateHeader />
       <TemplateText />
-
       <div className={`split-section ${splitVisible ? 'is-visible' : ''}`} ref={splitRef}>
         {templates.map(({ color, img, link, message }) => (
           <div className="split-col" key={color}>
