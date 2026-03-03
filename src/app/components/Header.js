@@ -1,25 +1,40 @@
 'use client'
 import React, { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import '../styles/Header.css'
 
-const Logo = '/pics/Logo.png';
+const Logo = '/pics/Logo.png'
 
 const navLinks = [
   { label: 'მთავარი', to: '/' },
   { label: 'პროექტები', to: '/saitis-damzadeba-proeqtebi' },
+  { label: 'მზა შაბლონები', to: '/saitis-ackoba-shablonebi' },
   { label: 'საიტის ფასები', to: '/saitis-damzadeba-fasebi' },
   { label: 'კონტაქტი', to: '/saitis-ackoba-kontaqti' },
 ]
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  const handleNavClick = (to, e) => {
+    if (pathname === to) {
+      e.preventDefault()
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+    setMenuOpen(false)
+  }
 
   return (
     <header className="hdr-outer" role="banner">
       <nav className="hdr-inner" aria-label="მთავარი ნავიგაცია">
-
-        <Link href="/" className="hdr-logo-wrap" aria-label="Apollo Creations - მთავარ გვერდზე გადასვლა">
+        <Link
+          href="/"
+          className="hdr-logo-wrap"
+          aria-label="Apollo Creations - მთავარ გვერდზე გადასვლა"
+          onClick={(e) => handleNavClick('/', e)}
+        >
           <img
             src={Logo}
             alt="Apollo Creations ლოგო"
@@ -33,10 +48,13 @@ function Header() {
         <ul className="hdr-nav" role="list">
           {navLinks.map((link, i) => (
             <li key={link.label}>
-              {link.to
-                ? <Link href={link.to} className="hdr-nav-link">{link.label}</Link>
-                : <a href={link.href} className="hdr-nav-link">{link.label}</a>
-              }
+              <Link
+                href={link.to}
+                className="hdr-nav-link"
+                onClick={(e) => handleNavClick(link.to, e)}
+              >
+                {link.label}
+              </Link>
               {i < navLinks.length - 1 && <span className="hdr-nav-divider" aria-hidden="true" />}
             </li>
           ))}
@@ -57,7 +75,6 @@ function Header() {
           <span className={`hdr-ham-line ${menuOpen ? 'open' : ''}`} aria-hidden="true" />
           <span className={`hdr-ham-line ${menuOpen ? 'open' : ''}`} aria-hidden="true" />
         </button>
-
       </nav>
 
       <div
@@ -74,9 +91,14 @@ function Header() {
         </button>
 
         {navLinks.map(link => (
-          link.to
-            ? <Link key={link.label} href={link.to} className="hdr-mobile-link" onClick={() => setMenuOpen(false)}>{link.label}</Link>
-            : <a key={link.label} href={link.href} className="hdr-mobile-link" onClick={() => setMenuOpen(false)}>{link.label}</a>
+          <Link
+            key={link.label}
+            href={link.to}
+            className="hdr-mobile-link"
+            onClick={(e) => handleNavClick(link.to, e)}
+          >
+            {link.label}
+          </Link>
         ))}
 
         <a

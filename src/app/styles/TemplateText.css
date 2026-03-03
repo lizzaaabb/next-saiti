@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;600;700&display=swap');
+
+.tt-section {
+  font-family: 'Noto Sans Georgian', sans-serif;
+  background: #020103;
+  padding: 48px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tt-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 52px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.tt-price.tt-vis { opacity: 1; transform: translateY(0); }
+
+.tt-price-label {
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tt-price-sep { display: none; }
+.tt-price-val {
+  background: linear-gradient(180deg, #ffffff 0%, #8C45FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+.tt-price-sub {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.tt-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 80px;
+  width: 100%;
+  max-width: 760px;
+  align-items: stretch;
+}
+
+.tt-cols > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tt-col--out {
+  height: 100%;
+}
+
+.tt-col--out .tt-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/* ── GRADIENT FADE UNDERLINE — purple ── */
+.tt-head {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8C45FF;
+  margin-bottom: 28px;
+  position: relative;
+  padding-bottom: 14px;
+  display: inline-block;
+}
+
+.tt-head--in  { color: #ffffff; text-shadow: 0 0 20px rgba(140,69,255,0.6), 0 0 50px rgba(140,69,255,0.25); }
+.tt-head--out { color: #ffffff; text-shadow: 0 0 20px rgba(140,69,255,0.6), 0 0 50px rgba(140,69,255,0.25); }
+
+.tt-head::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120%;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.tt-head--in::after {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(140,69,255,0.3) 20%,
+    #8C45FF 50%,
+    rgba(140,69,255,0.3) 80%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 18px rgba(140,69,255,0.6),
+    0 0 40px rgba(140,69,255,0.25);
+}
+
+.tt-head--out::after {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(140,69,255,0.3) 20%,
+    #8C45FF 50%,
+    rgba(140,69,255,0.3) 80%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 18px rgba(140,69,255,0.6),
+    0 0 40px rgba(140,69,255,0.25);
+}
+
+.tt-list { width: 100%; }
+
+.tt-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.tt-item:last-child { border-bottom: none; }
+.tt-item.tt-vis { opacity: 1; transform: translateY(0); }
+.tt-item:nth-child(1) { transition-delay: 0.00s; }
+.tt-item:nth-child(2) { transition-delay: 0.07s; }
+.tt-item:nth-child(3) { transition-delay: 0.14s; }
+.tt-item:nth-child(4) { transition-delay: 0.21s; }
+
+.tt-icon { flex-shrink: 0; line-height: 0; }
+
+.tt-icon--check svg {
+  filter:
+    drop-shadow(0 0 5px rgba(140,69,255,0.9))
+    drop-shadow(0 0 14px rgba(140,69,255,0.5));
+}
+.tt-icon--x svg {
+  filter:
+    drop-shadow(0 0 5px rgba(140,69,255,0.9))
+    drop-shadow(0 0 14px rgba(140,69,255,0.5));
+}
+
+.tt-text {
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .tt-section { padding: 40px 24px 80px; }
+  .tt-cols { grid-template-columns: 1fr; gap: 48px; }
+  .tt-cols > div { align-items: center; }
+  .tt-item { justify-content: center; }
+  .tt-text { text-align: center; }
+  .tt-icon { display: none; }
+}
