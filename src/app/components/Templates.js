@@ -32,7 +32,7 @@ const templates = [
 
 export default function Templates() {
   const splitRef = useRef(null)
-  const [splitVisible, setSplitVisible] = useState(false)
+  const [splitVisible, setSplitVisible] = useState(true)
 
   useEffect(() => {
     window.scrollTo(0, 0)
