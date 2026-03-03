@@ -28,6 +28,7 @@
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  animation: th-fade-up 0.8s ease both;
   font-family: 'Noto Sans Georgian', sans-serif;
 }
 
