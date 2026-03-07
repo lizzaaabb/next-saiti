@@ -91,7 +91,7 @@ return (
 <ProjectCard key={p.id} project={p} index={i} />
         ))}
 </div>
-<Link href="/projects" className="prj-all-btn">იხილე ყველა პროექტი</Link>
+<Link href="/saitis-damzadeba-proeqtebi" className="prj-all-btn">იხილე ყველა პროექტი</Link>
 </div>
   )
 }
