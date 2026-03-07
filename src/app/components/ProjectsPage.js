@@ -1,3 +1,4 @@
+'use client'
 import React, { useRef, useEffect, useState } from 'react'
 import '../styles/ProjectsPage.css'
 import Cta from './Cta'
