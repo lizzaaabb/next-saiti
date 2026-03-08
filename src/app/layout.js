@@ -10,6 +10,12 @@ export const metadata = {
   },
   description: 'საიტის აწყობა და ვებ გვერდის დამზადება პროფესიონალურად. ონლაინ მაღაზია, კორპორატიული საიტი, ლენდინგ პეიჯი. სწრაფი, თანამედროვე და SEO ოპტიმიზებული.',
   keywords: 'საიტის აწყობა, ვებ გვერდის დამზადება, ონლაინ მაღაზია, საიტის დამზადება, ვებ დიზაინი, saitisackoba',
+  alternates: {                               // ← დაამატე ეს
+    canonical: 'https://saitisackoba.com',
+    languages: {
+      'en': 'https://apollocreations.net',
+    },
+  },
   icons: {
     icon: '/favicon.ico',
     apple: '/logo192.png',
