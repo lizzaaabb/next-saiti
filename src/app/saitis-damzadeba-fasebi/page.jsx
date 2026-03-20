@@ -8,7 +8,7 @@ export const metadata = {
     canonical: 'https://saitisackoba.com/saitis-damzadeba-fasebi',
   },
   openGraph: {
-    title: 'საიტის აწყობის ფასები | saitisackoba.com',
+    title: 'საიტის აწყობის ფასები | რა ღირს საიტის დამზადება? | saitisackoba.com',
     description: 'საიტის აწყობის ფასები — მარტივი გვერდი 900₾-დან, ონლაინ მაღაზია 2400₾-დან.',
     url: 'https://saitisackoba.com/saitis-damzadeba-fasebi',
     images: [{ url: '/pics/web3.png', width: 1519, height: 793, alt: 'საიტის აწყობის ფასები' }],

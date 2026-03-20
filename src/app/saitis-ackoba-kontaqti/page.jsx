@@ -8,7 +8,7 @@ export const metadata = {
     canonical: 'https://saitisackoba.com/contact',
   },
   openGraph: {
-    title: 'კონტაქტი | saitisackoba.com',
+    title: 'საიტის აწყობა - კონტაქტი | saitisackoba.com',
     description: 'დაგვიკავშირდი საიტის აწყობასთან დაკავშირებით.',
     url: 'https://saitisackoba.com/contact',
   },
