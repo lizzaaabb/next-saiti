@@ -8,6 +8,7 @@ const project1 = '/p1.png'
 const project2 = '/p2.png'
 const project3 = '/p3.png'
 const project4 = '/p4.png'
+const project5 = '/p5.png'
 
 const projects = [
   {
@@ -50,6 +51,16 @@ const projects = [
     href: 'https://utopiaviptravel.com',
     color: '#7c3aed',
   },
+  {
+    id: '05',
+    name: 'Your Hood',
+    tag: 'ონლაინ მაღაზია',
+    year: '2025',
+    desc: 'მოდის ონლაინ მაღაზია - თანამედროვე დიზაინი, პროდუქტების კატალოგი და მარტივი ნავიგაცია.',
+    img: project5,
+    href: 'https://yourhood.ge',
+    color: '#9333ea'
+  }
 ]
 
 function useInView(threshold = 0.15) {
