@@ -169,7 +169,8 @@
 
 @media (max-width: 480px) {
   .ftr-container { padding: 40px 16px 20px; }
-  .ftr-logo { font-size: 1.3rem; }
+  .ftr-logo { font-size: 1.3rem; 
+  padding-bottom: 1px;}
   .ftr-tagline { font-size: 0.7rem; }
   .ftr-cols { gap: 24px; }
   .ftr-col-title { font-size: 0.75rem; }
