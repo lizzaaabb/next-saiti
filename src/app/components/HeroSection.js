@@ -11,9 +11,9 @@ function HeroSection() {
       <img src={blur1} alt="" className="hs-blur1" aria-hidden="true" width="800" height="800" />
 
       <div className="hero-content">
-        <h1 className="hero-title">საიტის აწყობა</h1>
+        <h1 className="hero-title">საიტის დამზადება</h1>
         <p className="hero-title2">ვებ გვერდების დამზადება</p>
-        <p className="hero-subtitle" itemProp="description">პრემიუმ ხარისხის ვებ გვერდების დამზადება</p>
+        <p className="hero-subtitle" itemProp="description">პრემიუმ ხარისხის ვებ გვერდები შენი ბიზნესისთვის</p>
         <a href="tel:+995574065469" className="hero-cta" aria-label="დაგვიკავშირდით — +995 574 06 54 69">დაგვიკავშირდი</a>
       </div>
 

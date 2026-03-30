@@ -7,9 +7,9 @@ import '../styles/Footer.css'
 const navLinks = [
   { label: 'მთავარი', to: '/' },
   { label: 'პროექტები', to: '/saitis-damzadeba-proeqtebi' },
-  { label: 'შაბლონები', to: '/saitis-ackoba-shabloni' },
+  { label: 'შაბლონები', to: '/saitis-damzadeba-shabloni' },
   { label: 'საიტის ფასები', to: '/saitis-damzadeba-fasebi' },
-  { label: 'კონტაქტი', to: '/saitis-ackoba-kontaqti' },
+  { label: 'კონტაქტი', to: '/saitis-damzadeba-kontaqti' },
 ]
 
 function Footer() {

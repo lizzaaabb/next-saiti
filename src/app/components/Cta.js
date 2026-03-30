@@ -12,7 +12,7 @@ function Cta() {
         <img src={blur} alt="" className="cta-top-blur" aria-hidden="true" />
         <p className="cta-eyebrow">დაგვიკავშირდი</p>
         <h2 className="cta-heading">
-          მზად ხარ ავაწყოთ<br />
+          მზად ხარ დავამზადოთ<br />
           <span className="cta-heading-gradient">შენი ვებ გვერდი?</span>
         </h2>
         <p className="cta-sub">

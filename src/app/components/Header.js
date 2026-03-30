@@ -9,9 +9,9 @@ const Logo = '/pics/Logo.png'
 const navLinks = [
   { label: 'მთავარი', to: '/' },
   { label: 'პროექტები', to: '/saitis-damzadeba-proeqtebi' },
-  { label: 'მზა შაბლონები', to: '/saitis-ackoba-shabloni' },
+  { label: 'მზა შაბლონები', to: '/saitis-damzadeba-shabloni' },
   { label: 'საიტის ფასები', to: '/saitis-damzadeba-fasebi' },
-  { label: 'კონტაქტი', to: '/saitis-ackoba-kontaqti' },
+  { label: 'კონტაქტი', to: '/saitis-damzadeba-kontaqti' },
 ]
 
 function Header() {

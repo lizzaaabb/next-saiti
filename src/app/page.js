@@ -3,6 +3,7 @@ import Brands from './components/Brands'
 import Projects from './components/Projects'
 import Pricing from './components/Pricing'
 import Cta from './components/Cta'
+import Process from './components/Process'
 
 export const metadata = {
   title: 'საიტის აწყობა | ვებ გვერდის დამზადება',
@@ -26,6 +27,7 @@ export default function Home() {
       <HeroSection />
       <Brands />
       <Projects />
+      <Process />
       <Pricing />
       <Cta />
     </>

@@ -8,7 +8,7 @@ export const metadata = {
     canonical: 'https://saitisackoba.com/templates',
   },
   openGraph: {
-    title: 'საიტის აწყობა - საიტის შაბლონები | saitisackoba.com',
+    title: 'საიტის დამზადება - საიტის შაბლონები | saitisackoba.com',
     description: 'მზა საიტის შაბლონები 150₾-დან. სწრაფი გაშვება, პროფესიონალური დიზაინი.',
     url: 'https://saitisackoba.com/templates',
     images: [{ url: '/transbg.png', width: 1200, height: 630, alt: 'საიტის შაბლონები' }],

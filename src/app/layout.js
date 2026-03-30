@@ -5,11 +5,11 @@ import './globals.css'
 export const metadata = {
   metadataBase: new URL('https://saitisackoba.com'),
   title: {
-    default: 'საიტის აწყობა | ვებ გვერდის დამზადება — saitisackoba.com',
+    default: 'საიტის დამზადება | ვებ გვერდის დამზადება — saitisackoba.com',
     template: '%s | saitisackoba.com',
   },
-  description: 'საიტის აწყობა და ვებ გვერდის დამზადება პროფესიონალურად. ონლაინ მაღაზია, კორპორატიული საიტი, ლენდინგ პეიჯი. სწრაფი, თანამედროვე და SEO ოპტიმიზებული.',
-  keywords: 'საიტის აწყობა, ვებ გვერდის დამზადება, ონლაინ მაღაზია, საიტის დამზადება, ვებ დიზაინი, saitisackoba',
+  description: 'საიტის დამზადება და ვებ გვერდის დამზადება პროფესიონალურად. ონლაინ მაღაზია, კორპორატიული საიტი, ლენდინგ ფეიჯი. სწრაფი, თანამედროვე და SEO ოპტიმიზებული.',
+  keywords: 'საიტის დამზადება, ვებ გვერდის დამზადება, ონლაინ მაღაზია, საიტის დამზადება, ვებ დიზაინი, saitisackoba, saitis ackoba, veb gverdis damzadeba, საიტის დამზადები ფასები, saitis damzadeba ra girs, saitis damzadeba',
   alternates: {                               // ← დაამატე ეს
     canonical: 'https://saitisackoba.com',
     languages: {

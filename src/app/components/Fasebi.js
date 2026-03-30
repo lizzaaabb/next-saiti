@@ -97,7 +97,7 @@ function Fasebi() {
 
       {/* HERO */}
       <section className="fsb-hero">
-        <p className="fsb-eyebrow">საიტის აწყობა</p>
+        <p className="fsb-eyebrow">საიტის დამზადება</p>
         <h1 className="fsb-hero-title">
           საიტის
           <br />
@@ -110,7 +110,7 @@ function Fasebi() {
         <div className="fsb-hero-tags">
           <span className="fsb-tag">საიტის დამზადება</span>
           <span className="fsb-tag">ვებ გვერდის დამზადება</span>
-          <span className="fsb-tag">საიტების აწყობა</span>
+          <span className="fsb-tag">საიტების დამზადება</span>
         </div>
       </section>
 
@@ -118,7 +118,7 @@ function Fasebi() {
       <section className="fsb-section">
         <div className="fsb-section-header">
           <span className="fsb-section-line fsb-section-line--left" />
-          <h2 className="fsb-section-title">რა ჯდება საიტის აწყობა?</h2>
+          <h2 className="fsb-section-title">რა ჯდება საიტის დამზადება?</h2>
           <span className="fsb-section-line fsb-section-line--right" />
         </div>
         <p className="fsb-section-lead">
